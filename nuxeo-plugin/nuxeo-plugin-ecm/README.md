@@ -36,7 +36,7 @@ Configuration
 
 L'import depuis le fomat [**leap2a**][2] moodle, assuré par la classe **MoodleXMLExportParser** n'est pas opérationnel.
 
-[1]: https://bitbucket.org/Stage_integration_moodle_nuxeo/plugin_portfolio
+[1]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-portfolio
 [2]: http://www.eportfolios.ac.uk/leap2a
 
 
