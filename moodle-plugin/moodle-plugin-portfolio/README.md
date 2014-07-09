@@ -9,7 +9,7 @@ Cet projet est un plugin d'export de contenu moodle vers
 une plateforme Nuxeo.
 
 
-C'est un plugin Moodle, donc il respecte la structure de  [** plugin d'export Moodle**] [3].
+C'est un plugin Moodle, donc il respecte la structure de  [**plugin d'export Moodle**] [3].
 
 L'accés à la plateforme Nuxeo se fait par authentification SSO.
 
