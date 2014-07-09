@@ -9,11 +9,6 @@ Description
 Ce client automation est une librairie basée sur [**php-automation-client**] [4] de nuxeo .
 Son objectif est d'enrichir le php-automation-client basic pour permettre la prise en compte de l'authentification Portal SSO.
 
-Il permettra la prise en main des operations CRUD en utilisant les APIs des services **nuxeo**.
-
-
-
-
 
 Nous avons ajouté le type d'authentification SSO. 
 Il contient deux parties :
