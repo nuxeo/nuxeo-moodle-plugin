@@ -29,7 +29,7 @@ Configuration
 
 [1]: http://www.nuxeo.com/
 [2]: https://moodle.org/
-[3]: moodle/md_nx_repositoryuworkspace
-[4]: moodle/md_nx_repositoryworkspace
-[5]: moodle/md_nx_portfolio
-[6]: moodle/md_nx_importer
+[3]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-repositoryuworkspace
+[4]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-repositoryworkspace
+[5]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-portfolio
+[6]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/nuxeo-plugin
