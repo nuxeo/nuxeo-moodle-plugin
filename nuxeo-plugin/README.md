@@ -36,7 +36,7 @@ Configuration
 
 
 
-[1]: https://bitbucket.org/Stage_integration_moodle_nuxeo/plugin_portfolio
+[1]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-portfolio
 
 
 
