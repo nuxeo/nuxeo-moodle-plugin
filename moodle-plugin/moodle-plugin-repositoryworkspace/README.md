@@ -52,7 +52,7 @@ Un fichier de configuration xml contenu dans /db/settings.xml permet de paramett
 [1]: http://www.nuxeo.com/
 [2]: https://moodle.org/
 [3]: http://docs.moodle.org/dev/Repository_plugins
-[4]: https://bitbucket.org/Stage_integration_moodle_nuxeo/nuxeo_automation_php
+[4]: https://github.com/nuxeo/nuxeo-moodle-plugin/tree/master/moodle-plugin/moodle-plugin-automation
  
  
 			 
