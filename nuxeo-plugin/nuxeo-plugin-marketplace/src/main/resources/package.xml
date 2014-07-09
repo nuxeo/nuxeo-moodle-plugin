@@ -1,0 +1,25 @@
+<!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<package type="addon" name="plugin-nuxeo-moodle" version="@VERSION@">
+	<title>plugin-nuxeo-moodle</title>
+	<description>
+		<p>Addon to handle Moodle interface</p>
+	</description>
+	<home-page>http://www.toutatice.fr</home-page>
+	<vendor>Academie de Rennes</vendor>
+	<installer restart="true" />
+	<uninstaller restart="true" />
+	<!-- <hotreload-support>false</hotreload-support> -->
+	<!-- <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance> -->
+	<nuxeo-validation>none</nuxeo-validation>
+	<production-state>production_ready</production-state>
+	<supported>false</supported>
+	<platforms>
+		<platform>cap-@DISTRIB_VERSION@</platform>
+	</platforms>
+	<dependencies>
+		<package>nuxeo-dm:@DISTRIB_VERSION@</package>
+	</dependencies>
+	<license>LGPL 2.1</license>
+	<license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
+</package>
+

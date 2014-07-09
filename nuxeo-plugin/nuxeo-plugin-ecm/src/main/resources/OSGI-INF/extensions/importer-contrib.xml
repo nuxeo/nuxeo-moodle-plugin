@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component name="fr.moodle.FileManagerService.contrib">
+
+	<require>org.nuxeo.ecm.platform.filemanager.service.FileManagerService</require>
+
+	<extension target="org.nuxeo.ecm.platform.filemanager.service.FileManagerService"
+		point="plugins">
+
+		<plugin name="MoodlePortfolioArchivePlugin" enabled="true"
+			class="fr.gouv.importer.MoodleZIPImporter"
+			order="5">
+			<filter>application/zip</filter>
+		</plugin>
+	</extension>
+
+</component>

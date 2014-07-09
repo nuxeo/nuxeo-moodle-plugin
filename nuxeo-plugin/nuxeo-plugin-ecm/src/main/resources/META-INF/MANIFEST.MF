@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 1
+Bundle-Name: Plugin Moodle
+Bundle-SymbolicName: fr.moodle.plugin;singleton:=true
+Bundle-Version: 2.0.0
+Bundle-Localization: plugin
+Bundle-Vendor: Rectorat Rennes 
+Bundle-Category: stateful
+Nuxeo-Component: OSGI-INF/extensions/importer-contrib.xml
+ 

@@ -1,0 +1,22 @@
+<moodle_settings>
+	<admin_config>
+		<url>http://integration.toutatice.fr/nuxeo/</url>
+		<conteners>
+			<entry>Folder</entry>
+			<entry>PictureBook</entry>
+			<entry>OrderedFolder</entry>
+		</conteners>
+		<contents>
+			<entry>File</entry>
+			<entry>Picture</entry>
+		</contents>
+		<returntypes>
+			<entry value='1' enable='false'>FILE_EXTERNAL</entry>
+			<entry value='4' enable='true'>FILE_REFERENCE</entry>
+			<entry value='2' enable='true'>FILE_INTERNAL</entry>
+		</returntypes>
+	</admin_config>
+	<instance_config>
+	</instance_config>
+</moodle_settings>
+

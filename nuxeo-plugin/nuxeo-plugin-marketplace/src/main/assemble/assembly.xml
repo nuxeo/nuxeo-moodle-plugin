@@ -1,0 +1,42 @@
+<project name="nuxeo-assembly"
+	default="build"
+	xmlns:nx="urn:nuxeo-build"
+	xmlns:artifact="urn:nuxeo-artifact">
+
+	<taskdef resource="org/nuxeo/build/antlib.xml" uri="urn:nuxeo-build" />
+	<taskdef resource="org/nuxeo/build/artifact/antlib.xml" uri="urn:nuxeo-artifact" />
+
+	<property name="outdir" value="${maven.project.build.directory}" />
+
+	<target name="build" description="Build the Nuxeo Moodle plugin Marketplace package">
+		<tstamp />
+		<delete failonerror="false" dir="${outdir}/marketplace" />
+		<mkdir dir="${outdir}/marketplace" />
+		<copy todir="${outdir}/marketplace">
+			<fileset dir="src/main/resources" />
+			<filterset>
+				<filter token="VERSION" value="${maven.project.version}" />
+				<filter token="DISTRIB_VERSION" value="${nuxeo.distribution.version}" />
+			</filterset>
+		</copy>
+
+		<!-- Your bundles -->
+		<copy todir="${outdir}/marketplace/install/plugins">
+			<artifact:resolveFile key="nuxeo-moodle-plugin:nuxeo-moodle-plugin-ecm:${maven.project.version}:jar" />
+		</copy>
+
+		<!-- 3rd party libraries -->
+		<copy todir="${outdir}/marketplace/install/lib">
+			<artifact:resolveFile key="org.jsoup:jsoup:1.7.3:jar" />
+		</copy>
+
+		<zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip"
+			basedir="${outdir}/marketplace" />
+		<artifact:attach file="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip"
+			target="${maven.project.groupId}:${maven.project.artifactId}"
+			type="zip" />
+	</target>
+
+</project>
+
+

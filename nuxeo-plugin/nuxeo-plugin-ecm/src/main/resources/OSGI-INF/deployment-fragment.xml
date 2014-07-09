@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<fragment version="1">
+
+	<require>org.nuxeo.ecm.platform.filemanager.core</require>
+	
+	<extension target="faces-config#NAVIGATION">
+	</extension>
+
+	<extension target="pages#PAGES">
+	</extension>
+
+	<extension target="application#MODULE">
+		<module>
+			<java>${bundle.fileName}</java>
+		</module>
+	</extension>
+
+</fragment>
