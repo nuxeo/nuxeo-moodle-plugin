@@ -11,7 +11,7 @@ IL permet à l'utilisateur Moodle de recupérer des resources depuis son espace 
 
 Les ressources récupérées sont enregistrées dans  [**Moodle**] [2], sous forme d'activités ou ressources  [**Moodle**] [2].
 
-C'est un plugin Moodle, donc il respecte la structure de  [** plugin de depot Moodle**] [3].
+C'est un plugin Moodle, donc il respecte la structure de  [**plugin de depot Moodle**] [3].
 
 L'accés à la plateforme Nuxeo se fait par authentification SSO.
 
